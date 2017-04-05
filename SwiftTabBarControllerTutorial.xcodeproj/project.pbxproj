@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		383B4C991E9574BA00917BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B4C981E9574BA00917BBA /* AppDelegate.swift */; };
-		383B4C9B1E9574BA00917BBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B4C9A1E9574BA00917BBA /* ViewController.swift */; };
-		383B4C9E1E9574BA00917BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383B4C9C1E9574BA00917BBA /* Main.storyboard */; };
+		383B4C9B1E9574BA00917BBA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B4C9A1E9574BA00917BBA /* HomeViewController.swift */; };
 		383B4CA01E9574BA00917BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383B4C9F1E9574BA00917BBA /* Assets.xcassets */; };
-		383B4CA31E9574BA00917BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383B4CA11E9574BA00917BBA /* LaunchScreen.storyboard */; };
 		383B4CAE1E9574BA00917BBA /* SwiftTabBarControllerTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B4CAD1E9574BA00917BBA /* SwiftTabBarControllerTutorialTests.swift */; };
 		383B4CB91E9574BA00917BBA /* SwiftTabBarControllerTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B4CB81E9574BA00917BBA /* SwiftTabBarControllerTutorialUITests.swift */; };
 		3D83E16B506ECB97AF2FBBFE /* Pods_SwiftTabBarControllerTutorialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79916BDB3B32343D35F2A0DC /* Pods_SwiftTabBarControllerTutorialUITests.framework */; };
@@ -40,10 +38,8 @@
 		055539C9482EB08D4565297C /* Pods_SwiftTabBarControllerTutorialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTabBarControllerTutorialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		383B4C951E9574BA00917BBA /* SwiftTabBarControllerTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTabBarControllerTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		383B4C981E9574BA00917BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		383B4C9A1E9574BA00917BBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		383B4C9D1E9574BA00917BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		383B4C9A1E9574BA00917BBA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		383B4C9F1E9574BA00917BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		383B4CA21E9574BA00917BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		383B4CA41E9574BA00917BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		383B4CA91E9574BA00917BBA /* SwiftTabBarControllerTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTabBarControllerTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		383B4CAD1E9574BA00917BBA /* SwiftTabBarControllerTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTabBarControllerTutorialTests.swift; sourceTree = "<group>"; };
@@ -128,10 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				383B4C981E9574BA00917BBA /* AppDelegate.swift */,
-				383B4C9A1E9574BA00917BBA /* ViewController.swift */,
-				383B4C9C1E9574BA00917BBA /* Main.storyboard */,
+				383B4C9A1E9574BA00917BBA /* HomeViewController.swift */,
 				383B4C9F1E9574BA00917BBA /* Assets.xcassets */,
-				383B4CA11E9574BA00917BBA /* LaunchScreen.storyboard */,
 				383B4CA41E9574BA00917BBA /* Info.plist */,
 			);
 			path = SwiftTabBarControllerTutorial;
@@ -284,9 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				383B4CA31E9574BA00917BBA /* LaunchScreen.storyboard in Resources */,
 				383B4CA01E9574BA00917BBA /* Assets.xcassets in Resources */,
-				383B4C9E1E9574BA00917BBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				383B4C9B1E9574BA00917BBA /* ViewController.swift in Sources */,
+				383B4C9B1E9574BA00917BBA /* HomeViewController.swift in Sources */,
 				383B4C991E9574BA00917BBA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,25 +476,6 @@
 			targetProxy = 383B4CB51E9574BA00917BBA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		383B4C9C1E9574BA00917BBA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				383B4C9D1E9574BA00917BBA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		383B4CA11E9574BA00917BBA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				383B4CA21E9574BA00917BBA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		383B4CBB1E9574BA00917BBA /* Debug */ = {
@@ -707,6 +680,7 @@
 				383B4CBF1E9574BA00917BBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		383B4CC01E9574BA00917BBA /* Build configuration list for PBXNativeTarget "SwiftTabBarControllerTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +689,7 @@
 				383B4CC21E9574BA00917BBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		383B4CC31E9574BA00917BBA /* Build configuration list for PBXNativeTarget "SwiftTabBarControllerTutorialUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +698,7 @@
 				383B4CC51E9574BA00917BBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
