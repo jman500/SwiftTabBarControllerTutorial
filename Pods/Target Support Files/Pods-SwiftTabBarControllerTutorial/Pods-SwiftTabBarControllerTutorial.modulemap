@@ -1,0 +1,6 @@
+framework module Pods_SwiftTabBarControllerTutorial {
+  umbrella header "Pods-SwiftTabBarControllerTutorial-umbrella.h"
+
+  export *
+  module * { export * }
+}
