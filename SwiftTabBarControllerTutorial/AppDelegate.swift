@@ -14,16 +14,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
+    func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
+        // Use this method if your application is using state restoration to show your application window and determine if state restoration should happen at all.
+        
+        return true
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
+
         window = UIWindow(frame: UIScreen.main.bounds)
         
         let homeViewController = HomeViewController()
         homeViewController.view.backgroundColor = UIColor.cyan
         window!.rootViewController = homeViewController
         window!.makeKeyAndVisible()
-        
+
         return true
     }
 
