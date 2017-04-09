@@ -5,3 +5,26 @@
   Created by Jim on 4/6/17.
   Copyright © 2017 JMan500. All rights reserved.
 */
+
+
+/* General dialog/button verbiage */
+"ok" = "Ok";
+"yes" = "Yes";
+"no" = "No";
+"cancel" = "Cancel";
+
+
+/* AuthenticationError - user displayed error descriptions */
+"AuthenticationError.userTokenInvalid" = "";
+"AuthenticationError.userTokenExpired" = "";
+"AuthenticationError.recentLoginRequired" = "";
+"AuthenticationError.userDisabled" = "This user account is disabled.";
+"AuthenticationError.userNotFound" = "";
+"AuthenticationError.passwordIncorrect" = "";
+"AuthenticationError.emailAlreadyInUse" = "";
+"AuthenticationError.emailFormatInvalid" = "Email address format is invalid.";
+"AuthenticationError.passwordFormatInvalid" = "Password format is invalid.";
+"AuthenticationError.actionCodeExpired" = "";
+"AuthenticationError.actionCodeInvalid" = "";
+"AuthenticationError.networkError" = "Network error. Please try again later.";
+"AuthenticationError.unknown" = "Unknown authentication error.";
