@@ -7,11 +7,11 @@
 */
 
 
-/* General dialog/button verbiage */
-"ok" = "Ok";
-"yes" = "Yes";
-"no" = "No";
-"cancel" = "Cancel";
+/* Common dialog/button verbiage */
+"Common.ok" = "Ok";
+"Common.yes" = "Yes";
+"Common.no" = "No";
+"Common.cancel" = "Cancel";
 
 
 /* AuthenticationError - user displayed error descriptions */
