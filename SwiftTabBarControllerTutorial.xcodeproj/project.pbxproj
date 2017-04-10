@@ -107,6 +107,7 @@
 			children = (
 				382B0B6B1E99D2F100CE1BD7 /* Entities */,
 				382B0B6C1E99D2F100CE1BD7 /* Gateways */,
+				38DA10521E9B39F7007684BA /* Mappers */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -177,6 +178,13 @@
 				383B4CBA1E9574BA00917BBA /* Info.plist */,
 			);
 			path = SwiftTabBarControllerTutorialUITests;
+			sourceTree = "<group>";
+		};
+		38DA10521E9B39F7007684BA /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mappers;
 			sourceTree = "<group>";
 		};
 		E8480A8DE68D085A0646157E /* Frameworks */ = {
