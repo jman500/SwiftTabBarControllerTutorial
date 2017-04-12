@@ -14,6 +14,7 @@ target 'SwiftTabBarControllerTutorial' do
   pod 'Firebase/Auth'
   pod 'ReSwift'
   pod 'Swinject', '~> 2.0.0'
+  pod 'SwinjectAutoregistration', '~> 2.0.0'
 
 
   target 'SwiftTabBarControllerTutorialTests' do

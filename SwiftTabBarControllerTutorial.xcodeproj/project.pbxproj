@@ -14,6 +14,7 @@
 		383B4CA01E9574BA00917BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383B4C9F1E9574BA00917BBA /* Assets.xcassets */; };
 		383B4CAE1E9574BA00917BBA /* SwiftTabBarControllerTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B4CAD1E9574BA00917BBA /* SwiftTabBarControllerTutorialTests.swift */; };
 		383B4CB91E9574BA00917BBA /* SwiftTabBarControllerTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B4CB81E9574BA00917BBA /* SwiftTabBarControllerTutorialUITests.swift */; };
+		385CA8D21E9EBF63001BC816 /* SwinjectAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385CA8D11E9EBF63001BC816 /* SwinjectAssembler.swift */; };
 		388E7B171E9747C500792BCE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 388E7B191E9747C500792BCE /* Localizable.strings */; };
 		38B6CC171E9EA80C00A57B5B /* FirebaseAuthenticationGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B6CC161E9EA80C00A57B5B /* FirebaseAuthenticationGateway.swift */; };
 		38F4A9611E9DCCBB002B84B9 /* AuthenticationGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4A9601E9DCCBB002B84B9 /* AuthenticationGateway.swift */; };
@@ -57,6 +58,7 @@
 		383B4CB41E9574BA00917BBA /* SwiftTabBarControllerTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTabBarControllerTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		383B4CB81E9574BA00917BBA /* SwiftTabBarControllerTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTabBarControllerTutorialUITests.swift; sourceTree = "<group>"; };
 		383B4CBA1E9574BA00917BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385CA8D11E9EBF63001BC816 /* SwinjectAssembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwinjectAssembler.swift; sourceTree = "<group>"; };
 		388E7B181E9747C500792BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		38B6CC161E9EA80C00A57B5B /* FirebaseAuthenticationGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAuthenticationGateway.swift; sourceTree = "<group>"; };
 		38F4A9601E9DCCBB002B84B9 /* AuthenticationGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationGateway.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 		383B4C971E9574BA00917BBA /* SwiftTabBarControllerTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				385CA8D01E9EBEC7001BC816 /* Assembly */,
 				382B0B6A1E99D2F100CE1BD7 /* Authentication */,
 				38F4A9621E9DCD99002B84B9 /* Common */,
 				38F4A9691E9DD36D002B84B9 /* Providers */,
@@ -194,6 +197,14 @@
 				383B4CBA1E9574BA00917BBA /* Info.plist */,
 			);
 			path = SwiftTabBarControllerTutorialUITests;
+			sourceTree = "<group>";
+		};
+		385CA8D01E9EBEC7001BC816 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				385CA8D11E9EBF63001BC816 /* SwinjectAssembler.swift */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 		38DA10521E9B39F7007684BA /* Mappers */ = {
@@ -529,6 +540,7 @@
 				38F4A9661E9DD0A6002B84B9 /* User.swift in Sources */,
 				383B4C9B1E9574BA00917BBA /* HomeViewController.swift in Sources */,
 				382B0B6E1E99D32000CE1BD7 /* AuthenticationError.swift in Sources */,
+				385CA8D21E9EBF63001BC816 /* SwinjectAssembler.swift in Sources */,
 				383B4C991E9574BA00917BBA /* AppDelegate.swift in Sources */,
 				382D515D1E9DE07300F5942C /* UserMapper.swift in Sources */,
 			);

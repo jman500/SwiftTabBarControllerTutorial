@@ -29,12 +29,15 @@ PODS:
   - GTMSessionFetcher/Core (1.1.9)
   - ReSwift (3.0.0)
   - Swinject (2.0.0)
+  - SwinjectAutoregistration (2.0.1):
+    - Swinject (~> 2.0.0)
 
 DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - ReSwift
   - Swinject (~> 2.0.0)
+  - SwinjectAutoregistration (~> 2.0.0)
 
 SPEC CHECKSUMS:
   Firebase: 2b1cdfba1cda8589f32904a697cc753322bff9d8
@@ -46,7 +49,8 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
   ReSwift: f0255f4b4f2dacd12c5d97d34d13fc5dad6d6371
   Swinject: 2e964a80d70ab09b3949c99032711f89147bfd60
+  SwinjectAutoregistration: d19654c429354bad4b544c658dc92345ccdbb72c
 
-PODFILE CHECKSUM: 79d92ccf5d19e66827af815ba3ea8b1bdcd5bb93
+PODFILE CHECKSUM: 06e430bc3b07756d457cf149519f4581ee7f7521
 
 COCOAPODS: 1.2.0
