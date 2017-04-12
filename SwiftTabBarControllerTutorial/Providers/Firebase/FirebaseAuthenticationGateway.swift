@@ -10,6 +10,10 @@ import FirebaseAuth
 
 
 class FirebaseAuthenticationGateway: AuthenticationGateway {
+    
+    required init() {
+    }
+    
     func registerUser(email: String, password: String, completion: @escaping ((Result<User, AuthenticationError>) -> Void)) {
     }
 }

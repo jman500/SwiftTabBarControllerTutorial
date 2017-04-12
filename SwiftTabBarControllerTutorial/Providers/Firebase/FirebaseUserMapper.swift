@@ -11,14 +11,22 @@ import FirebaseAuth
 
 struct FirebaseUserMapper: UserMapper {
     
-    init<FIRUser>(externalUser: FIRUser?) {
+    required init() {
     }
     
-    func map() -> User? {
+    func mapToUser() -> User? {
         return nil
     }
     
-    static func map<FIRUser>(externalUser: FIRUser?) -> User? {
+    func mapToExternalUser<FIRUser>() -> FIRUser? {
+        return nil
+    }
+    
+    static func mapToUser<FIRUser>(externalUser: FIRUser?) -> User? {
+        return nil
+    }
+    
+    static func mapToExternalUser<FIRUser>(user: User?) -> FIRUser? {
         return nil
     }
 }

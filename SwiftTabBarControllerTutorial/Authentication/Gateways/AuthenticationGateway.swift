@@ -8,5 +8,6 @@
 
 
 protocol AuthenticationGateway {
+    init()
     func registerUser(email: String, password: String, completion: @escaping ((Result<User, AuthenticationError>) -> Void))
 }

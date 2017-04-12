@@ -8,7 +8,9 @@
 
 
 protocol UserMapper {
-    init<T>(externalUser: T?)
-    func map() -> User?
-    static func map<T>(externalUser: T?) -> User?
+    init()
+    func mapToUser() -> User?
+    func mapToExternalUser<T>() -> T?
+    static func mapToUser<T>(externalUser: T?) -> User?
+    static func mapToExternalUser<T>(user: User?) -> T?
 }
