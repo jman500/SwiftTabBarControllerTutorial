@@ -14,6 +14,11 @@
 		383B4CAE1E9574BA00917BBA /* SwiftTabBarControllerTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B4CAD1E9574BA00917BBA /* SwiftTabBarControllerTutorialTests.swift */; };
 		383B4CB91E9574BA00917BBA /* SwiftTabBarControllerTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B4CB81E9574BA00917BBA /* SwiftTabBarControllerTutorialUITests.swift */; };
 		388E7B171E9747C500792BCE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 388E7B191E9747C500792BCE /* Localizable.strings */; };
+		38F4A9611E9DCCBB002B84B9 /* AuthenticationGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4A9601E9DCCBB002B84B9 /* AuthenticationGateway.swift */; };
+		38F4A9641E9DCDB4002B84B9 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4A9631E9DCDB4002B84B9 /* Result.swift */; };
+		38F4A9661E9DD0A6002B84B9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4A9651E9DD0A6002B84B9 /* User.swift */; };
+		38F4A9681E9DD131002B84B9 /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4A9671E9DD131002B84B9 /* UserMapper.swift */; };
+		38F4A96C1E9DD439002B84B9 /* FirebaseUserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4A96B1E9DD439002B84B9 /* FirebaseUserMapper.swift */; };
 		3D83E16B506ECB97AF2FBBFE /* Pods_SwiftTabBarControllerTutorialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79916BDB3B32343D35F2A0DC /* Pods_SwiftTabBarControllerTutorialUITests.framework */; };
 		4032C7DE24C585DB1BDDF204 /* Pods_SwiftTabBarControllerTutorialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 055539C9482EB08D4565297C /* Pods_SwiftTabBarControllerTutorialTests.framework */; };
 		C479D5D91E251C525D1B8454 /* Pods_SwiftTabBarControllerTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C423A91E6AE7F45AF65B779 /* Pods_SwiftTabBarControllerTutorial.framework */; };
@@ -51,6 +56,11 @@
 		383B4CB81E9574BA00917BBA /* SwiftTabBarControllerTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTabBarControllerTutorialUITests.swift; sourceTree = "<group>"; };
 		383B4CBA1E9574BA00917BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		388E7B181E9747C500792BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		38F4A9601E9DCCBB002B84B9 /* AuthenticationGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationGateway.swift; sourceTree = "<group>"; };
+		38F4A9631E9DCDB4002B84B9 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		38F4A9651E9DD0A6002B84B9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		38F4A9671E9DD131002B84B9 /* UserMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserMapper.swift; path = SwiftTabBarControllerTutorial/Authentication/Entities/UserMapper.swift; sourceTree = SOURCE_ROOT; };
+		38F4A96B1E9DD439002B84B9 /* FirebaseUserMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseUserMapper.swift; sourceTree = "<group>"; };
 		5C423A91E6AE7F45AF65B779 /* Pods_SwiftTabBarControllerTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTabBarControllerTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9F15A5302FCDAB4757B4FA /* Pods-SwiftTabBarControllerTutorialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTabBarControllerTutorialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTabBarControllerTutorialTests/Pods-SwiftTabBarControllerTutorialTests.release.xcconfig"; sourceTree = "<group>"; };
 		79916BDB3B32343D35F2A0DC /* Pods_SwiftTabBarControllerTutorialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTabBarControllerTutorialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				382B0B6D1E99D32000CE1BD7 /* AuthenticationError.swift */,
+				38F4A9651E9DD0A6002B84B9 /* User.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -123,6 +134,7 @@
 		382B0B6C1E99D2F100CE1BD7 /* Gateways */ = {
 			isa = PBXGroup;
 			children = (
+				38F4A9601E9DCCBB002B84B9 /* AuthenticationGateway.swift */,
 			);
 			path = Gateways;
 			sourceTree = "<group>";
@@ -153,9 +165,11 @@
 			isa = PBXGroup;
 			children = (
 				382B0B6A1E99D2F100CE1BD7 /* Authentication */,
+				38F4A9621E9DCD99002B84B9 /* Common */,
+				38F4A9691E9DD36D002B84B9 /* Providers */,
 				383B4C981E9574BA00917BBA /* AppDelegate.swift */,
-				383B4C9A1E9574BA00917BBA /* HomeViewController.swift */,
 				383B4C9F1E9574BA00917BBA /* Assets.xcassets */,
+				383B4C9A1E9574BA00917BBA /* HomeViewController.swift */,
 				383B4CA41E9574BA00917BBA /* Info.plist */,
 				388E7B191E9747C500792BCE /* Localizable.strings */,
 			);
@@ -183,8 +197,33 @@
 		38DA10521E9B39F7007684BA /* Mappers */ = {
 			isa = PBXGroup;
 			children = (
+				38F4A9671E9DD131002B84B9 /* UserMapper.swift */,
 			);
 			path = Mappers;
+			sourceTree = "<group>";
+		};
+		38F4A9621E9DCD99002B84B9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				38F4A9631E9DCDB4002B84B9 /* Result.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		38F4A9691E9DD36D002B84B9 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				38F4A96A1E9DD3C7002B84B9 /* Firebase */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		38F4A96A1E9DD3C7002B84B9 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				38F4A96B1E9DD439002B84B9 /* FirebaseUserMapper.swift */,
+			);
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 		E8480A8DE68D085A0646157E /* Frameworks */ = {
@@ -480,6 +519,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F4A96C1E9DD439002B84B9 /* FirebaseUserMapper.swift in Sources */,
+				38F4A9681E9DD131002B84B9 /* UserMapper.swift in Sources */,
+				38F4A9611E9DCCBB002B84B9 /* AuthenticationGateway.swift in Sources */,
+				38F4A9641E9DCDB4002B84B9 /* Result.swift in Sources */,
+				38F4A9661E9DD0A6002B84B9 /* User.swift in Sources */,
 				383B4C9B1E9574BA00917BBA /* HomeViewController.swift in Sources */,
 				382B0B6E1E99D32000CE1BD7 /* AuthenticationError.swift in Sources */,
 				383B4C991E9574BA00917BBA /* AppDelegate.swift in Sources */,
