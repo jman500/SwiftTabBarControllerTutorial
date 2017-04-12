@@ -11,7 +11,7 @@ import FirebaseAuth
 
 struct FirebaseUserMapper: UserMapper {
     
-    required init() {
+    init() {
     }
     
     func mapToUser() -> User? {

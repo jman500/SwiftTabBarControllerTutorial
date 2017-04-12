@@ -7,3 +7,8 @@
 //
 
 import Swinject
+
+
+class SwinjectAssembler {
+    
+}
