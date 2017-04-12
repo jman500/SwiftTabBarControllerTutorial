@@ -15,6 +15,7 @@
 		383B4CAE1E9574BA00917BBA /* SwiftTabBarControllerTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B4CAD1E9574BA00917BBA /* SwiftTabBarControllerTutorialTests.swift */; };
 		383B4CB91E9574BA00917BBA /* SwiftTabBarControllerTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B4CB81E9574BA00917BBA /* SwiftTabBarControllerTutorialUITests.swift */; };
 		388E7B171E9747C500792BCE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 388E7B191E9747C500792BCE /* Localizable.strings */; };
+		38B6CC171E9EA80C00A57B5B /* FirebaseAuthenticationGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B6CC161E9EA80C00A57B5B /* FirebaseAuthenticationGateway.swift */; };
 		38F4A9611E9DCCBB002B84B9 /* AuthenticationGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4A9601E9DCCBB002B84B9 /* AuthenticationGateway.swift */; };
 		38F4A9641E9DCDB4002B84B9 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4A9631E9DCDB4002B84B9 /* Result.swift */; };
 		38F4A9661E9DD0A6002B84B9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4A9651E9DD0A6002B84B9 /* User.swift */; };
@@ -57,6 +58,7 @@
 		383B4CB81E9574BA00917BBA /* SwiftTabBarControllerTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTabBarControllerTutorialUITests.swift; sourceTree = "<group>"; };
 		383B4CBA1E9574BA00917BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		388E7B181E9747C500792BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		38B6CC161E9EA80C00A57B5B /* FirebaseAuthenticationGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAuthenticationGateway.swift; sourceTree = "<group>"; };
 		38F4A9601E9DCCBB002B84B9 /* AuthenticationGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationGateway.swift; sourceTree = "<group>"; };
 		38F4A9631E9DCDB4002B84B9 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		38F4A9651E9DD0A6002B84B9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				38F4A96B1E9DD439002B84B9 /* FirebaseUserMapper.swift */,
+				38B6CC161E9EA80C00A57B5B /* FirebaseAuthenticationGateway.swift */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -522,6 +525,7 @@
 				38F4A96C1E9DD439002B84B9 /* FirebaseUserMapper.swift in Sources */,
 				38F4A9611E9DCCBB002B84B9 /* AuthenticationGateway.swift in Sources */,
 				38F4A9641E9DCDB4002B84B9 /* Result.swift in Sources */,
+				38B6CC171E9EA80C00A57B5B /* FirebaseAuthenticationGateway.swift in Sources */,
 				38F4A9661E9DD0A6002B84B9 /* User.swift in Sources */,
 				383B4C9B1E9574BA00917BBA /* HomeViewController.swift in Sources */,
 				382B0B6E1E99D32000CE1BD7 /* AuthenticationError.swift in Sources */,
