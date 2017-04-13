@@ -8,7 +8,6 @@
 
 import FirebaseAuth
 
-
 class FirebaseAuthenticationGateway: AuthenticationGateway {
     
     required init() {

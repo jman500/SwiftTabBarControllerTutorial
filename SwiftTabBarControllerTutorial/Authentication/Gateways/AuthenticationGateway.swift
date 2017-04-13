@@ -6,8 +6,8 @@
 //  Copyright © 2017 JMan500. All rights reserved.
 //
 
-
 protocol AuthenticationGateway {
+    
     init()
     func registerUser(email: String, password: String, completion: @escaping ((Result<User, AuthenticationError>) -> Void))
 }

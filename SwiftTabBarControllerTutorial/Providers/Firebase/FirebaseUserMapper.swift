@@ -8,25 +8,13 @@
 
 import FirebaseAuth
 
-
 struct FirebaseUserMapper: UserMapper {
-    
-    init() {
-    }
-    
-    func mapToUser() -> User? {
-        return nil
-    }
-    
-    func mapToExternalUser<FIRUser>() -> FIRUser? {
-        return nil
-    }
-    
+
     static func mapToUser<FIRUser>(externalUser: FIRUser?) -> User? {
         return nil
     }
     
-    static func mapToExternalUser<FIRUser>(user: User?) -> FIRUser? {
+    static func mapToExternalEntity<FIRUser>(user: User?) -> FIRUser? {
         return nil
     }
 }

@@ -6,7 +6,5 @@
 //  Copyright © 2017 JMan500. All rights reserved.
 //
 
-
-class User {
-    
+class User {    
 }

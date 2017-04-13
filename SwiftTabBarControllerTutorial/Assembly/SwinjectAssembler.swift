@@ -8,7 +8,5 @@
 
 import Swinject
 
-
-class SwinjectAssembler {
-    
+class SwinjectAssembler {    
 }
